@@ -1,0 +1,9 @@
+<h1>I Want to Learn Something Cool About..</h1>
+
+<input type="text" ng-model="searchTerm">
+<button ng-click="search(searchTerm)">Search</button>
+
+<div ng-repeat="article in articles">
+  <h2>{{ article.title }}</h2>
+  <p>{{ article.snippet }}</p>
+</div>
