@@ -1,5 +1,6 @@
 var app = angular.module('wikiViewApp', [
-  'ngRoute'
+  'ngRoute',
+    'ngSanitize'
   ])
   .config(function($routeProvider) {
     $routeProvider
